@@ -1,6 +1,6 @@
 {
     "name": "@smertos/tydi",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple dependency injection library for TypeScript",
     "main": "lib/tydi.js",
     "repository": {
