@@ -1,0 +1,33 @@
+{
+    "name": "@smertos/tydi",
+    "version": "1.0.0",
+    "description": "Simple dependency injection library for TypeScript",
+    "main": "dist/tydi.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Smertos/tydi"
+    },
+    "author": "Mikhail Vedernikov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Smertos/tydi/issues"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "build:watch": "rollup -c -w",
+        "test": "jest",
+        "test:watch": "jest --notify --watch"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.11",
+        "jest": "^24.5.0",
+        "rollup": "^1.7.3",
+        "rollup-plugin-node-resolve": "^4.0.1",
+        "rollup-plugin-typescript2": "^0.20.1",
+        "ts-jest": "^24.0.0",
+        "typescript": "^3.3.4000"
+    },
+    "dependencies": {
+        "reflect-metadata": "^0.1.13"
+    }
+}
