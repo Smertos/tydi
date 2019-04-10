@@ -2,7 +2,7 @@
     "name": "@smertos/tydi",
     "version": "1.0.0",
     "description": "Simple dependency injection library for TypeScript",
-    "main": "dist/tydi.js",
+    "main": "lib/tydi.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/Smertos/tydi"
