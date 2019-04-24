@@ -31,7 +31,7 @@ import { AuthService } from '...';
 
 class LoginComponent {
 	
-    @Inject(AuthService) authService: AuthService;
+    @Inject() authService: AuthService;
     
     logIn(): void {
     	if (this.authService.isLoggedIn) return;
