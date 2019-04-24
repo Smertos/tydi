@@ -34,7 +34,6 @@ export function Inject(key?: AllowedKeys): any {
             target[propertyKey] = Container.get(key);
         } else {
             const ctor = Reflect.getMetadata('design:type', target, propertyKey)
-            console.log(propertyKey, ctor);
 
             if (!isFunction(ctor) || !ctor.prototype) throw new Error('Cannot inject non-class values into properties without specifying key');
             if (!ctor[Container.injectable]) throw new Error('Class has to be decorated with Service decorator');
