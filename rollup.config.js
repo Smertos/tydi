@@ -6,7 +6,7 @@ export default {
     input: 'src/index.ts',
 
     output: {
-        file: 'lib/tydi.js',
+        file: 'lib/index.js',
         format: 'umd',
         name: 'tydi'
     },
